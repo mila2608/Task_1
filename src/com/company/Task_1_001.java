@@ -6,14 +6,14 @@ public class Task_1_001 {
 
     public static void main(String[] args) {
 
-        UserInvitation();
-        OddEven();
-        NoEqualNumbers();
-        HappyTicket();
+        userInvitation();
+        oddEven();
+        noEqualNumbers();
+        happyTicket();
 
     }
 
-    public static void UserInvitation() {
+    public static void userInvitation() {
         Scanner scanner = new Scanner(System.in);
         String str, pattern;
         System.out.println("Enter your Name");
@@ -26,7 +26,7 @@ public class Task_1_001 {
             System.out.println(false + "Enter 123 to match password");
     }
 
-    public static void OddEven() {
+    public static void oddEven() {
         for (int i = 0; i < 5; i++) {
             int a = (int) (Math.random() * ((-20) - (-10)) + (-10));
         }
@@ -65,7 +65,7 @@ public class Task_1_001 {
         System.out.println("Multiplication = " + pr);
     }
 
-    public static void NoEqualNumbers() {
+    public static void noEqualNumbers() {
         Random r = new Random();
         ArrayList<Integer> a = new ArrayList<>();
         ArrayList<String> b = new ArrayList<>();
@@ -82,7 +82,7 @@ public class Task_1_001 {
         }
     }
 
-    public static void HappyTicket() {
+    public static void happyTicket() {
         Random r = new Random();
         ArrayList<Integer> a = new ArrayList<>();
         String str;
